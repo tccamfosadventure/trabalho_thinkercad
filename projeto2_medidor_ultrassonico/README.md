@@ -1,1 +1,3 @@
-
+  Esse projeto utiliza um sensor ultrassônico para medir a distância e um display LCD para mostrar o valor medido, além de LEDs coloridos que indicam o nível da caixa conforme a distância detectada.
+O código funciona da seguinte forma: O sensor ultrassônico, ligado aos pinos trigPin e echoPin, envia um pulso de som e mede o tempo que o eco leva para retornar, esse tempo é convertido em centímetros (Cm) por meio da fórmula Cm = duration * 0.034 / 2, com base na distância, o programa calcula uma estimativa de volume (L), que é mostrada no display LCD junto com a distância.
+  Os LEDs acendem de acordo com o valor medido: Distância menor indica caixa mais cheia (LED vermelho acende);Conforme a distância aumenta, os LEDs mudam de cor (laranja, amarelo, verde e azul), mostrando os diferentes níveis, quando a distância ultrapassa o limite definido, o LED azul indica que a caixa está vazia e o ciclo se repete constantemente.

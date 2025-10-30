@@ -3,6 +3,6 @@
   O objetivo do repositório é armazenar e documentar o projeto desenvolvido com Arduino, permitindo que outros usuários saibam como o sistema funciona. Além disso, o repositório serve como registro do processo.
 
 
-  Alex A.
-  Allanis A.
+  Alex A. -
+  Allanis A. -
   Sarah M.
